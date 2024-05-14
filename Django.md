@@ -37,3 +37,16 @@ Start a new app
 ```shell
 python manage.py startapp <name-of-project>
 ```
+
+Verify if Django is installed.
+```python
+import django
+django.get_version()
+```
+
+Files important.
+
+> __init__: Define their containing folders as packages.
+> migrations/: Will hold information about changes to yout future database.
+> models.py; Will define the data model for your app.
+> views.py: Will handle the logic controlling the app display.
